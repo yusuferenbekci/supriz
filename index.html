@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="stylesheet" href="stlye.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana Bir Sürprizim Var 🌸</title>
+</head>
+<body>
+
+    <!-- 1. ADIM: SORU EKRANI -->
+    <div class="kutu" id="soru-ekrani">
+        <h1>Günün nasıl geçiyor? ✨</h1>
+        <p>Sana ufak bir çiçek hediye etmemi ister misin?</p>
+        
+        <div class="buton-alani">
+            <button class="btn-evet" onclick="evetTiklandi()">EVET 🌸</button>
+            <button class="btn-hayir" id="kacan-buton">HAYIR</button>
+        </div>
+    </div>
+
+    <!-- 2. ADIM: ÇİÇEK EKRANI (Evet'e basılınca açılır) -->
+    <div class="kutu" id="sonuc-ekrani">
+        <h1>İşte Çiçeğin! 💖</h1>
+        <p>Umarım yüzünde küçük bir tebessüm oluşturabilmişimdir.</p>
+        
+        <!-- ÇİÇEK GÖRSELİ: Elindeki piksel çiçek resmini cicek.png adıyla aynı klasöre koymalısın -->
+        <img src="cicek.jpg" alt="Pixel Çiçek" class="cicek-gorseli">
+        
+        <p style="margin-top: 10px; color: #e91e63; font-weight: bold; margin-bottom: 0;">
+            Sevgiler,<br>Yusuf Eren
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
